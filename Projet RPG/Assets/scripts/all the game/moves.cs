@@ -6,9 +6,11 @@ public class moves : MonoBehaviour
     public  Rigidbody2D rb;
     private Vector3 velocité = Vector3.zero;
     private Animator anim;
+    public string dir;
     void Start()
     {
         anim = GetComponent<Animator>();
+        dir = "down";
     }
 
     void FixedUpdate()
@@ -26,6 +28,7 @@ public class moves : MonoBehaviour
             anim.SetBool("down", false);
             anim.SetBool("up", false);
             anim.SetBool("left", false);
+            dir = "right";
         }
 
         if (Input.GetKey(KeyCode.Q))
@@ -35,6 +38,7 @@ public class moves : MonoBehaviour
             anim.SetBool("down", false);
             anim.SetBool("up", false);
             anim.SetBool("right", false);
+            dir = "left";
         }
 
         if (Input.GetKey(KeyCode.Z))
@@ -44,6 +48,7 @@ public class moves : MonoBehaviour
             anim.SetBool("left", false);
             anim.SetBool("right", false);
             anim.SetBool("down", false);
+            dir = "up";
         }
 
         if (Input.GetKey(KeyCode.S))
@@ -53,6 +58,7 @@ public class moves : MonoBehaviour
             anim.SetBool("left", false);
             anim.SetBool("right", false);
             anim.SetBool("up", false);
+            dir = "down";
         }
         if (hormove == 0)
         {

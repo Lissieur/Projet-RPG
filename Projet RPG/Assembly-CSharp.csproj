@@ -71,6 +71,7 @@
     <Compile Include="Assets\scripts\Main menu\cursor\cursorsmenusL.cs" />
     <Compile Include="Assets\scripts\all the game\brightness.cs" />
     <Compile Include="Assets\scripts\all the game\interactable.cs" />
+    <Compile Include="Assets\scripts\all the game\keybind.cs" />
     <Compile Include="Assets\scripts\all the game\mouse_disabled.cs" />
     <Compile Include="Assets\scripts\all the game\moves.cs" />
     <Reference Include="Unity.Timeline.Editor">
