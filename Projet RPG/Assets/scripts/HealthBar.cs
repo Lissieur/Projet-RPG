@@ -6,14 +6,19 @@ using UnityEngine.UI;
 public class HealthBar : MonoBehaviour
 {
     public Slider slider;
-    // Start is called before the first frame update
-    public void SetMaxHealth(int health)
+    public Gradient gradiant;
+    public Image fill;
+
+    public void SetMaxHealth(int health) 
     {
-        slider.MaxValue = health;
+        slider.maxValue = health;
         slider.value = health;
+
+        fill.color = gradiant.Evaluate(1f);
     }
     public void SetHealth(int health)
     {
         slider.value = health;
+        fill.color = gradiant.Evaluate(slider.normalizedValue); 
     }
 }
