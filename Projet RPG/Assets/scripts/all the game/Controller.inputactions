@@ -70,6 +70,17 @@
                     "processors": "",
                     "interactions": "",
                     "bindings": []
+                },
+                {
+                    "name": "pause",
+                    "id": "bea96a07-2abf-43d7-8ba4-60f9ad4e6a89",
+                    "expectedControlLayout": "",
+                    "continuous": false,
+                    "passThrough": false,
+                    "initialStateCheck": false,
+                    "processors": "",
+                    "interactions": "",
+                    "bindings": []
                 }
             ],
             "bindings": [
@@ -153,6 +164,18 @@
                     "processors": "",
                     "groups": "",
                     "action": "sprint",
+                    "isComposite": false,
+                    "isPartOfComposite": false,
+                    "modifiers": ""
+                },
+                {
+                    "name": "",
+                    "id": "41d85314-88a9-48ea-b48b-1b2a7a98e608",
+                    "path": "<Gamepad>/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "pause",
                     "isComposite": false,
                     "isPartOfComposite": false,
                     "modifiers": ""

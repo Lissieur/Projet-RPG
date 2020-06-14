@@ -17,7 +17,7 @@ public class Health : MonoBehaviour
 
     void Update()
     {
-        if(input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.Space))
         {
             TakeDamage(20);
         }

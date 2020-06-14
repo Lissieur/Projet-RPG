@@ -84,6 +84,17 @@ public class Controller : IInputActionCollection
                     ""processors"": """",
                     ""interactions"": """",
                     ""bindings"": []
+                },
+                {
+                    ""name"": ""pause"",
+                    ""id"": ""bea96a07-2abf-43d7-8ba4-60f9ad4e6a89"",
+                    ""expectedControlLayout"": """",
+                    ""continuous"": false,
+                    ""passThrough"": false,
+                    ""initialStateCheck"": false,
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""bindings"": []
                 }
             ],
             ""bindings"": [
@@ -170,6 +181,18 @@ public class Controller : IInputActionCollection
                     ""isComposite"": false,
                     ""isPartOfComposite"": false,
                     ""modifiers"": """"
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""41d85314-88a9-48ea-b48b-1b2a7a98e608"",
+                    ""path"": ""<Gamepad>/select"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""pause"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false,
+                    ""modifiers"": """"
                 }
             ]
         }
@@ -184,6 +207,7 @@ public class Controller : IInputActionCollection
         m_gameplay_dodge = m_gameplay.GetAction("dodge");
         m_gameplay_inventory = m_gameplay.GetAction("inventory");
         m_gameplay_sprint = m_gameplay.GetAction("sprint");
+        m_gameplay_pause = m_gameplay.GetAction("pause");
     }
 
     ~Controller()
@@ -242,6 +266,7 @@ public class Controller : IInputActionCollection
     private InputAction m_gameplay_dodge;
     private InputAction m_gameplay_inventory;
     private InputAction m_gameplay_sprint;
+    private InputAction m_gameplay_pause;
     public struct GameplayActions
     {
         private Controller m_Wrapper;
@@ -252,6 +277,7 @@ public class Controller : IInputActionCollection
         public InputAction @dodge { get { return m_Wrapper.m_gameplay_dodge; } }
         public InputAction @inventory { get { return m_Wrapper.m_gameplay_inventory; } }
         public InputAction @sprint { get { return m_Wrapper.m_gameplay_sprint; } }
+        public InputAction @pause { get { return m_Wrapper.m_gameplay_pause; } }
         public InputActionMap Get() { return m_Wrapper.m_gameplay; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -280,6 +306,9 @@ public class Controller : IInputActionCollection
                 sprint.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSprint;
                 sprint.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSprint;
                 sprint.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSprint;
+                pause.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnPause;
+                pause.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnPause;
+                pause.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnPause;
             }
             m_Wrapper.m_GameplayActionsCallbackInterface = instance;
             if (instance != null)
@@ -302,6 +331,9 @@ public class Controller : IInputActionCollection
                 sprint.started += instance.OnSprint;
                 sprint.performed += instance.OnSprint;
                 sprint.canceled += instance.OnSprint;
+                pause.started += instance.OnPause;
+                pause.performed += instance.OnPause;
+                pause.canceled += instance.OnPause;
             }
         }
     }
@@ -320,5 +352,6 @@ public class Controller : IInputActionCollection
         void OnDodge(InputAction.CallbackContext context);
         void OnInventory(InputAction.CallbackContext context);
         void OnSprint(InputAction.CallbackContext context);
+        void OnPause(InputAction.CallbackContext context);
     }
 }
