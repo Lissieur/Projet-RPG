@@ -1,43 +1,10 @@
 fileFormatVersion: 2
-guid: 906e12810646e4145b59548ea4326ddd
+guid: fc84f5c957bf61a4bae5909527e2195b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2986818500251847579
-    second: Main menu_0
-  - first:
-      213: -9197904816170755652
-    second: Main menu_1
-  - first:
-      213: -3160397305440190666
-    second: Main menu_2
-  - first:
-      213: 8784170157948912044
-    second: Main menu_3
-  - first:
-      213: 1240549741992187090
-    second: Main menu_4
-  - first:
-      213: 1014865199700067234
-    second: Main menu_5
-  - first:
-      213: 70443667517274788
-    second: Main menu_6
-  - first:
-      213: 3044381829285227804
-    second: Main menu_7
-  - first:
-      213: -8850590305601807167
-    second: Main menu_8
-  - first:
-      213: -2566355463286766507
-    second: Main menu_9
-  - first:
-      213: 2078506430574522978
-    second: Main menu_10
-  - first:
-      213: -8707700770750531676
-    second: Main menu_11
+      213: -5672869595778636664
+    second: dodge_0
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -79,10 +46,10 @@ TextureImporter:
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 9
+  spritePivot: {x: 0.50082916, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 3, y: 5, z: 3, w: 4}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -122,64 +89,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Main menu_0
+      name: dodge_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 26
-        width: 40
-        height: 12
+        x: 3
+        y: 5
+        width: 26
+        height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 12, z: 0, w: 0}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5647ceb1660bc86d0800000000000000
-      internalID: -2986818500251847579
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu_1
-      rect:
-        serializedVersion: 2
-        x: 68
-        y: 26
-        width: 56
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 12, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cb999426d4a7a5080800000000000000
-      internalID: -9197904816170755652
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu_2
-      rect:
-        serializedVersion: 2
-        x: 142
-        y: 26
-        width: 36
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 14}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 63fb22c25630424d0800000000000000
-      internalID: -3160397305440190666
+      spriteID: 8842086a82be541b0800000000000000
+      internalID: -5672869595778636664
       vertices: []
       indices: 
       edges: []

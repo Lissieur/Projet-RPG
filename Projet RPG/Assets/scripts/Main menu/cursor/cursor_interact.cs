@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class cursor_interact : MonoBehaviour
 {
-    private cursorsmenusL cursors;
+    private cursormenusL cursors;
     interactable inter;
     // Start is called before the first frame update
     void Start()
     {
-        cursors = GetComponent<cursorsmenusL>();
+        cursors = GetComponent<cursormenusL>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             Transform target = cursors.list[cursors.GetCursorPos];
             inter = target.GetComponent<interactable>();

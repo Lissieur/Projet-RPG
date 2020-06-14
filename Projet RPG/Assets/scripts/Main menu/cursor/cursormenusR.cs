@@ -36,7 +36,8 @@ public class cursormenusR : MonoBehaviour
         //on déplace le curseur
         SpriteRenderer rend = list[pos].GetComponent<SpriteRenderer>();
         float ext = rend.sprite.bounds.extents.x;
-        float newposx = list[pos].position.x + ext * 3f;
+        float newposx = list[pos].position.x +ext *3f;//ext * 6f;
+
 
         cursor.SetPositionAndRotation(new Vector3(newposx, list[pos].position.y, cursor.position.z), cursor.rotation);
         //---------------------
