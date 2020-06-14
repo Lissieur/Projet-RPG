@@ -8,18 +8,28 @@ public class Health : MonoBehaviour
 {
     public int maxHealth = 100;
     public int currentHealth;
+    public int maxMana = 100;
+    public int currentMana;
+    public ManaBar manaBar;
     public HealthBar healthBar;
+    public Text text;
+    public Text textmana;
+    private string Vie;
     void Start()
     {
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
+        currentMana = maxMana;
+        manaBar.SetMaxMana(maxMana);
     }
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        Vie = currentHealth + ToString(); 
+        text.text = Vie;
+        textmana.text = currentMana + ToString();
+        if (Input.GetKeyDown(("a")))
         {
-            TakeDamage(20);
-           
+            TakeMana(10);
         }
     }
     public void TakeDamage(int damage)
@@ -27,6 +37,11 @@ public class Health : MonoBehaviour
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth);
         Died();
+    }
+    public void TakeMana(int spell)
+    {
+        currentMana -= spell;
+        manaBar.SetMana(currentMana);
     }
     void Died()
     {

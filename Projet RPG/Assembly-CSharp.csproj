@@ -61,6 +61,7 @@
     <Compile Include="Assets\scripts\Health.cs" />
     <Compile Include="Assets\scripts\HealthBar.cs" />
     <Compile Include="Assets\scripts\Inventaire.cs" />
+    <Compile Include="Assets\scripts\ManaBar.cs" />
     <Compile Include="Assets\scripts\moves.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>F:/Projet unity Mayes/Projet RPG/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
