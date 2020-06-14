@@ -6,7 +6,7 @@ using UnityEngine;
 public class AttackPlayer : MonoBehaviour
 {
     private GameObject Player;
-    public Health health; 
+    //public Health health; 
 
     void Start()
     {
@@ -16,7 +16,7 @@ public class AttackPlayer : MonoBehaviour
     {
         if (collider.gameObject.tag == "Player")
         {
-            health.TakeDamage(10);
+           // health.TakeDamage(10);
         }
     }
 }

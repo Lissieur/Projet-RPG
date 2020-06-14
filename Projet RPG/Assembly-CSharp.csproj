@@ -72,8 +72,9 @@
     <Compile Include="Assets\scripts\Main menu\cursor\cursor_interact.cs" />
     <Compile Include="Assets\scripts\Main menu\cursor\cursormenusL.cs" />
     <Compile Include="Assets\scripts\Main menu\cursor\cursormenusR.cs" />
-    <Compile Include="Assets\scripts\all the game\Health.cs" />
-    <Compile Include="Assets\scripts\all the game\HealthBar.cs" />
+    <Compile Include="Assets\scripts\all the game\AttackPlayer.cs" />
+    <Compile Include="Assets\scripts\all the game\Inventaire.cs" />
+    <Compile Include="Assets\scripts\all the game\ManaBar.cs" />
     <Compile Include="Assets\scripts\all the game\brightness.cs" />
     <Compile Include="Assets\scripts\all the game\interactable.cs" />
     <Compile Include="Assets\scripts\all the game\mouse_disabled.cs" />
