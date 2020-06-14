@@ -1,0 +1,582 @@
+/target:library
+/nowarn:0169
+/out:Temp/Unity.InputSystem.dll
+/unsafe
+/debug:portable
+/optimize-
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEditor.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/Managed/UnityEditor.Graphs.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+/reference:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll
+/reference:D:/unity/2019.3.0f5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll
+/define:UNITY_2019_3_0
+/define:UNITY_2019_3
+/define:UNITY_2019
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:PLATFORM_ARCH_64
+/define:UNITY_64
+/define:UNITY_INCLUDE_TESTS
+/define:ENABLE_AR
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_PHYSICS
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_UNET
+/define:ENABLE_LZMA
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_VR
+/define:ENABLE_WEBCAM
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_WWW
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:INCLUDE_DYNAMIC_GI
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:PLATFORM_SUPPORTS_MONO
+/define:RENDER_SOFTWARE_CURSOR
+/define:ENABLE_VIDEO
+/define:PLATFORM_STANDALONE
+/define:PLATFORM_STANDALONE_WIN
+/define:UNITY_STANDALONE_WIN
+/define:UNITY_STANDALONE
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_MOVIES
+/define:ENABLE_NETWORK
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+/define:ENABLE_CLUSTER_SYNC
+/define:ENABLE_CLUSTERINPUT
+/define:ENABLE_WEBSOCKET_HOST
+/define:ENABLE_MONO
+/define:NET_STANDARD_2_0
+/define:ENABLE_PROFILER
+/define:DEBUG
+/define:TRACE
+/define:UNITY_ASSERTIONS
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_BURST_AOT
+/define:UNITY_TEAM_LICENSE
+/define:ENABLE_VSTU
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_INPUT_SYSTEM
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:CSHARP_7_OR_LATER
+/define:CSHARP_7_3_OR_NEWER
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Actions\Composites\AxisComposite.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Actions\Composites\Vector2Composite.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Actions\IInputActionCollection.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Actions\IInputInteraction.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Actions\InputAction.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Actions\InputActionAsset.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Actions\InputActionChange.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Actions\InputActionMap.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Actions\InputActionPhase.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Actions\InputActionProperty.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Actions\InputActionRebindingExtensions.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Actions\InputActionReference.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Actions\InputActionSetupExtensions.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Actions\InputActionState.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Actions\InputActionTrace.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Actions\InputBinding.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Actions\InputBindingComposite.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Actions\InputBindingCompositeContext.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Actions\InputBindingResolver.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Actions\InputControlScheme.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Actions\InputInteractionContext.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Actions\Interactions\HoldInteraction.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Actions\Interactions\MultiTapInteraction.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Actions\Interactions\PressInteraction.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Actions\Interactions\SlowTapInteraction.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Actions\Interactions\TapInteraction.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\AssemblyInfo.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\AnyKeyControl.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\AxisControl.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\ButtonControl.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\CommonUsages.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\DiscreteButtonControl.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\DpadControl.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\InputControl.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\InputControlAttribute.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\InputControlExtensions.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\InputControlLayout.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\InputControlLayoutAttribute.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\InputControlLayoutChange.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\InputControlList.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\InputControlPath.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\InputProcessor.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\IntegerControl.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\KeyControl.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\PointerPhaseControl.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\Processors\AxisDeadzoneProcessor.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\Processors\ClampProcessor.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\Processors\CompensateDirectionProcessor.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\Processors\CompensateRotationProcessor.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\Processors\CurveProcessor.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\Processors\EditorWindowSpaceProcessor.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\Processors\InvertProcessor.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\Processors\InvertVector2Processor.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\Processors\InvertVector3Processor.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\Processors\NormalizeProcessor.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\Processors\NormalizeVector2Processor.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\Processors\NormalizeVector3Processor.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\Processors\ScaleProcessor.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\Processors\ScaleVector2Processor.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\Processors\ScaleVector3Processor.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\Processors\StickDeadzoneProcessor.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\QuaternionControl.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\StickControl.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\TouchControl.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\Vector2Control.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Controls\Vector3Control.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Commands\DisableDeviceCommand.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Commands\EnableDeviceCommand.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Commands\EnableIMECompositionCommand.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Commands\IInputDeviceCommandInfo.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Commands\InitiateUserAccountPairingCommand.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Commands\InputDeviceCommand.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Commands\QueryCanRunInBackground.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Commands\QueryDimensionsCommand.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Commands\QueryEditorWindowCoordinatesCommand.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Commands\QueryEnabledStateCommand.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Commands\QueryKeyNameCommand.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Commands\QueryKeyboardLayoutCommand.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Commands\QueryPairedUserAccountCommand.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Commands\QuerySamplingFrequencyCommand.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Commands\QueryUserIdCommand.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Commands\RequestResetCommand.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Commands\RequestSyncCommand.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Commands\SetIMECursorPositionCommand.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Commands\SetSamplingFrequencyCommand.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Commands\WarpMousePositionCommand.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Gamepad.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Haptics\DualMotorRumble.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Haptics\DualMotorRumbleCommand.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Haptics\IDualMotorRumble.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Haptics\IHaptics.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\IInputUpdateCallbackReceiver.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\ITextInputReceiver.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\InputDevice.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\InputDeviceBuilder.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\InputDeviceChange.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\InputDeviceDescription.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\InputDeviceMatcher.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\InputDeviceReference.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Joystick.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Keyboard.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Mouse.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Pen.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Pointer.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Remote\InputRemoting.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Remote\RemoteInputPlayerConnection.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Sensor.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\TouchManager.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Devices\Touchscreen.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\AssetEditor\InputActionAssetManager.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\AssetEditor\InputActionEditorToolbar.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\AssetEditor\InputActionEditorWindow.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\AssetEditor\InputActionPropertiesView.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\AssetEditor\InputActionTreeView.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\AssetEditor\InputActionTreeViewItems.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\AssetEditor\InputBindingPropertiesView.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\AssetEditor\NameAndParameterListView.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\AssetEditor\ParameterListView.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\AssetEditor\PropertiesViewBase.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\AssetImporter\InputActionAssetEditor.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\AssetImporter\InputActionCodeGenerator.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\AssetImporter\InputActionImporter.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\AssetImporter\InputActionImporterEditor.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\ControlPicker\InputControlDropdownItem.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\ControlPicker\InputControlPathEditor.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\ControlPicker\InputControlPicker.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\ControlPicker\InputControlPickerDropdown.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\ControlPicker\InputControlPickerState.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\Debugger\InputActionDebuggerWindow.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\Debugger\InputDebuggerWindow.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\Debugger\InputDeviceDebuggerWindow.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\EditorInputControlLayoutCache.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\InputDiagnostics.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\InputParameterEditor.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdown.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownDataSource.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownGUI.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownItem.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownState.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownWindow.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\Internal\AdvancedDropdown\CallbackDataSource.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\Internal\AdvancedDropdown\MultiLevelDataSource.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\Internal\EditorHelpers.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\Internal\GUIHelpers.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\Internal\InputActionSerializationHelpers.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\Internal\InputControlTreeView.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\Internal\InputEventTreeView.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\Internal\InputStateWindow.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\Internal\SerializedPropertyHelpers.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\Internal\TreeViewHelpers.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\PropertyDrawers\InputActionDrawer.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\PropertyDrawers\InputActionDrawerBase.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\PropertyDrawers\InputActionMapDrawer.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\PropertyDrawers\InputActionPropertyDrawer.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\PropertyDrawers\InputBindingDrawer.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\PropertyDrawers\InputControlPathDrawer.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\Settings\EditorPlayerSettingHelpers.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\Settings\InputEditorUserSettings.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\Settings\InputSettingsBuildProvider.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Editor\Settings\InputSettingsProvider.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Events\ActionEvent.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Events\DeltaStateEvent.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Events\DeviceConfigurationEvent.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Events\DeviceRemoveEvent.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Events\IInputEventTypeInfo.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Events\IMECompositionEvent.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Events\InputEvent.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Events\InputEventBuffer.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Events\InputEventPtr.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Events\InputEventTrace.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Events\StateEvent.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Events\TextEvent.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\IInputDiagnostics.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\IInputRuntime.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\InputAnalytics.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\InputManager.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\InputMetrics.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\InputSettings.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\InputSystem.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\InputSystemObject.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\InputUpdateType.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\NativeInputRuntime.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\Android\AndroidAxis.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\Android\AndroidGameController.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\Android\AndroidKeyCode.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\Android\AndroidSensors.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\Android\AndroidSupport.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\DualShock\DualShockGamepad.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\DualShock\DualShockGamepadHID.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\DualShock\DualShockSupport.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\DualShock\IDualShockHaptics.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\Flightsticks\Flightstick.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\Flightsticks\Rudder.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\Flightsticks\Throttle.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\HID\HID.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\HID\HIDDescriptorWindow.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\HID\HIDParser.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\HID\HIDSupport.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\InputSimulation\InputSimulation.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\Linux\LinuxSupport.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\Linux\SDLDeviceBuilder.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\OnScreen\OnScreenButton.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\OnScreen\OnScreenControl.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\OnScreen\OnScreenStick.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\OnScreen\OnScreenSupport.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\PS4\DualShockGamepadPS4.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\PS4\MoveControllerPS4.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\PS4\PS4Support.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\PlayerInput\InputValue.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\PlayerInput\PlayerInput.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\PlayerInput\PlayerInputEditor.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\PlayerInput\PlayerInputManager.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\PlayerInput\PlayerInputManagerEditor.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\PlayerInput\PlayerJoinBehavior.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\PlayerInput\PlayerNotifications.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\Steam\IStreamControllerAPI.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\Steam\SteamController.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\Steam\SteamControllerType.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\Steam\SteamHandle.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\Steam\SteamIGAConverter.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\Steam\SteamSupport.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\SteeringWheels\SteeringWheel.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\Switch\INPadRumble.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\Switch\NPad.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\Switch\SwitchSupport.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\UI\InputSystemUIInputModule.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\UI\InputSystemUIInputModuleEditor.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\UI\JoystickModel.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\UI\MouseModel.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\UI\MultiplayerEventSystem.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\UI\StandaloneInputModuleEditor.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\UI\TouchModel.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\UI\TrackedDeviceModel.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\UI\TrackedDeviceRaycaster.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\UI\UIInputModule.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\Users\InputUser.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\Users\InputUserAccountHandle.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\Users\InputUserChange.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\Users\InputUserPairingOptions.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\Users\InputUserSettings.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\WebGL\WebGLGamepad.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\WebGL\WebGLJoystick.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\WebGL\WebGLSupport.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\XInput\IXboxOneRumble.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\XInput\XInputController.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\XInput\XInputControllerOSX.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\XInput\XInputControllerWindows.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\XInput\XInputSupport.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\XInput\XboxOneGamepad.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\XR\Daydream.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\XR\GearVR.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\XR\GenericXRDevice.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\XR\Haptics\BufferedRumble.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\XR\Haptics\GetCurrentHapticStateCommand.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\XR\Haptics\GetHapticCapabilitiesCommand.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\XR\Haptics\SendBufferedHapticsCommand.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\XR\Haptics\SendHapticImpulseCommand.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\XR\Oculus.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\XR\TrackedPoseDriver.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\XR\Vive.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\XR\WindowsMR.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\XR\XRSupport.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\XR\XRTemplateBuilder.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\iOS\IOSGameController.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\iOS\iOSSensors.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Plugins\iOS\iOSSupport.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\State\IInputStateCallbackReceiver.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\State\IInputStateChangeMonitor.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\State\IInputStateTypeInfo.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\State\InputStateBlock.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\State\InputStateBuffers.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Utilities\ArrayHelpers.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Utilities\CSharpCodeHelpers.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Utilities\DelegateHelpers.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Utilities\DynamicBitfield.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Utilities\ExceptionHelpers.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Utilities\FourCC.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Utilities\InlinedArray.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Utilities\InternedString.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Utilities\JsonParser.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Utilities\MemoryHelpers.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Utilities\NameAndParameters.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Utilities\NamedValue.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Utilities\NumberHelpers.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Utilities\OneOrMore.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Utilities\PrimitiveValue.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Utilities\PrimitiveValueOrArray.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Utilities\ReadOnlyArray.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Utilities\ReadWriteArray.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Utilities\StringHelpers.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Utilities\Substring.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Utilities\TypeHelpers.cs"
+"C:\Users\tidje\Bureau\Projet-RPG\Projet RPG\Library\PackageCache\com.unity.inputsystem@0.2.10-preview\InputSystem\Utilities\TypeTable.cs"
