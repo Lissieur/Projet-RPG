@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Inventaire : MonoBehaviour
 {
-
+    public Canvas canvas;
     bool activation = false;
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<Canvas>().enabled = activation;
+        canvas.enabled = activation;
     }
 
     // Update is called once per frame
@@ -18,7 +18,7 @@ public class Inventaire : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.I))
         {
             activation = !activation;
-            GetComponent<Canvas>().enabled = activation;
+            canvas.enabled = activation;
         }
     }
 }
