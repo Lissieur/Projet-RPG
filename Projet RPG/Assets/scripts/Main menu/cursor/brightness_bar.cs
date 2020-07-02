@@ -16,7 +16,7 @@ public class brightness_bar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (inter.GetSetState)
+        if (inter.state)
         {
             if (Input.GetKey(KeyCode.D) && cursor.position.x < 1.3f)
             {

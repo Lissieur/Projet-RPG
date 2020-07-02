@@ -11,6 +11,7 @@ public class firstload : MonoBehaviour
         PlayerPrefs.SetString("right", "D");
         PlayerPrefs.SetString("dodge", "P");
         PlayerPrefs.SetString("sprint", "LeftShift");
+        PlayerPrefs.SetString("interact", "E");
         PlayerPrefs.Save();
         if (PlayerPrefs.GetInt("firstdone", 0) == 0)
         {

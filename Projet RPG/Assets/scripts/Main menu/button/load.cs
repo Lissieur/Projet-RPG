@@ -16,7 +16,7 @@ public class load : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (inter.GetSetState)
+        if (inter.state)
         {
             SceneManager.LoadScene(scene);
         }

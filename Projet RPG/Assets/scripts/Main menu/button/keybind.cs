@@ -20,12 +20,12 @@ public class keybind : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (inter.GetSetState)
+        if (inter.state)
         {
 
             if (Input.GetKeyDown(KeyCode.Return))
             {
-                inter.GetSetState = false; rend.enabled = true;
+                inter.state = false; rend.enabled = true;
             }
             else
             {

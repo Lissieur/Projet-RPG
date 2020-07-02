@@ -2,12 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class exit : MonoBehaviour
+public class test : MonoBehaviour
 {
-    interactable inter;
+    private SpriteRenderer rend;
+    private interactable inter;
+    public Sprite on;
+    public Sprite off;
     // Start is called before the first frame update
     void Start()
     {
+        rend = GetComponent<SpriteRenderer>();
         inter = GetComponent<interactable>();
     }
 
@@ -15,8 +19,8 @@ public class exit : MonoBehaviour
     void Update()
     {
         if (inter.state)
-        {
-            Application.Quit();
-        }
+            rend.sprite = on;
+        else
+            rend.sprite = off;
     }
 }

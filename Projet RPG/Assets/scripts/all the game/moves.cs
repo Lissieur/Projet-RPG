@@ -13,13 +13,16 @@ public class moves : MonoBehaviour
     public bool armed;
     private Vector3 velocité = Vector3.zero;
     private Animator anim;
-    public string dir;
+    public string dir = "down";
+
+    private bool sprinting = false;
+
     private float time = 0;
     private bool dodging = false;
-    private bool sprinting = false;
     private float hordodge;
     private float verdodge;
-    private Controller controls;
+
+
 
     private KeyCode up;
     private KeyCode left;
@@ -27,6 +30,12 @@ public class moves : MonoBehaviour
     private KeyCode right;
     private KeyCode sprint;
     private KeyCode dodge;
+
+    private Controller controls;
+
+    public float boxx = 0;
+    public float boxy = -1;
+    private float decal = 0.8f;
 
     private void Awake()
     {
@@ -50,7 +59,6 @@ public class moves : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
-        dir = "down";
         up = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("up", ""));
         left = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("left", ""));
         down = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("down", ""));
@@ -77,7 +85,12 @@ public class moves : MonoBehaviour
             anim.SetBool("down", false);
             anim.SetBool("up", false);
             anim.SetBool("left", false);
+
             dir = "right";
+
+            boxx = decal;
+            boxy = 0;
+
             if (time == 0)
                 hordodge = hormove;
         }
@@ -89,7 +102,12 @@ public class moves : MonoBehaviour
             anim.SetBool("down", false);
             anim.SetBool("up", false);
             anim.SetBool("right", false);
+
             dir = "left";
+
+            boxx = -decal;
+            boxy = 0;
+
             if (time == 0)
                 hordodge = hormove;
         }
@@ -101,7 +119,12 @@ public class moves : MonoBehaviour
             anim.SetBool("left", false);
             anim.SetBool("right", false);
             anim.SetBool("down", false);
+
             dir = "up";
+
+            boxy = 0.4f;
+            boxx = 0;
+
             if (time == 0)
                 verdodge = vermove;
         }
@@ -113,7 +136,12 @@ public class moves : MonoBehaviour
             anim.SetBool("left", false);
             anim.SetBool("right", false);
             anim.SetBool("up", false);
+
             dir = "down";
+
+            boxy = -decal;
+            boxx = 0;
+
             if (time == 0)
                 verdodge = vermove;
         }
@@ -130,7 +158,12 @@ public class moves : MonoBehaviour
             anim.SetBool("down", false);
             anim.SetBool("up", false);
             anim.SetBool("left", false);
+
             dir = "right";
+
+            boxx = decal;
+            boxy = 0;
+
             if (time == 0)
                 hordodge = hormove;
         }
@@ -138,11 +171,17 @@ public class moves : MonoBehaviour
         if (Input.GetKey(left))
         {
             hormove = -1 * speed * Time.deltaTime;
+
             anim.SetBool("left", true);
             anim.SetBool("down", false);
             anim.SetBool("up", false);
             anim.SetBool("right", false);
+
             dir = "left";
+
+            boxx = -decal;
+            boxy = 0;
+
             if (time == 0)
                 hordodge = hormove;
         }
@@ -154,7 +193,12 @@ public class moves : MonoBehaviour
             anim.SetBool("left", false);
             anim.SetBool("right", false);
             anim.SetBool("down", false);
+
             dir = "up";
+
+            boxy = 0.4f;
+            boxx = 0;
+
             if (time == 0)
                 verdodge = vermove;
         }
@@ -166,7 +210,12 @@ public class moves : MonoBehaviour
             anim.SetBool("left", false);
             anim.SetBool("right", false);
             anim.SetBool("up", false);
+
             dir = "down";
+
+            boxy = -decal;
+            boxx = 0;
+
             if (time == 0)
                 verdodge = vermove;
         }
@@ -206,6 +255,7 @@ public class moves : MonoBehaviour
             moveplayer(hormove, vermove);
         }
         #endregion
+
         speed = s;
         hormove = 0;
         vermove = 0;

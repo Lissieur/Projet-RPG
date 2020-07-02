@@ -19,7 +19,7 @@ public class cursor_interact : MonoBehaviour
         {
             Transform target = cursors.list[cursors.GetCursorPos];
             inter = target.GetComponent<interactable>();
-            inter.GetSetState = true;
+            inter.state = true;
         }
     }
 }
