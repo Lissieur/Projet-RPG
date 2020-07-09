@@ -5,12 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class load : MonoBehaviour
 {
-    interactable inter;
+    buttons inter;
     public string scene;
     // Start is called before the first frame update
     void Start()
     {
-        inter = GetComponent<interactable>();
+        inter = GetComponent<buttons>();
     }
 
     // Update is called once per frame

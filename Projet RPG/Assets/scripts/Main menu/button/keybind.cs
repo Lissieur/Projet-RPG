@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class keybind : MonoBehaviour
 {
-    public interactable inter;
+    public buttons inter;
     public KeyCode currentkey;
     public string bind;
     public Sprite sprite;

@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class exit : MonoBehaviour
 {
-    interactable inter;
+    buttons inter;
     // Start is called before the first frame update
     void Start()
     {
-        inter = GetComponent<interactable>();
+        inter = GetComponent<buttons>();
     }
 
     // Update is called once per frame

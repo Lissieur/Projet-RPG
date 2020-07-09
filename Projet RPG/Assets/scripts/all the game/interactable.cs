@@ -41,47 +41,50 @@ public class interactable : MonoBehaviour
 
     private void FixedUpdate()
     {
-        bool done = false;
-        float diffx = player.position.x - target.position.x;
-        float diffy = player.position.y - target.position.y;
-
-        if (Input.GetKey(Interact))
-            inter = true;
-        else
+        if (movement != null)
         {
-            inter = false;
+            bool done = false;
+            float diffx = player.position.x - target.position.x;
+            float diffy = player.position.y - target.position.y;
+
+            if (Input.GetKey(Interact))
+                inter = true;
+            else
+            {
+                inter = false;
+            }
+
+            if (diffx > 0.1f && diffx < range && movement.dir == "left" && inter)
+            {
+                done = true;
+                state = true;
+            }
+
+
+            if (diffx < -0.1f && diffx > -range && movement.dir == "right" && inter)
+            {
+                done = true;
+                state = true;
+            }
+
+
+
+            if (diffy > 0.1f && diffy < range && movement.dir == "down" && inter)
+            {
+                done = true;
+                state = true;
+            }
+
+
+            if (diffy < -0.1f && diffy > -range && movement.dir == "up" && inter)
+            {
+                done = true;
+                state = true;
+            }
+
+
+            if (!done)
+                state = false;
         }
-
-        if (diffx > 0.1f && diffx < range && movement.dir == "left" && inter)
-        {
-            done = true;
-            state = true;
-        }
-
-
-        if (diffx < -0.1f && diffx > -range && movement.dir == "right" && inter)
-        {
-            done = true;
-            state = true;
-        }
-
-
-
-        if (diffy > 0.1f && diffy < range && movement.dir == "down" && inter)
-        {
-            done = true;
-            state = true;
-        }
-
-
-        if (diffy < -0.1f && diffy > -range && movement.dir == "up" && inter)
-        {
-            done = true;
-            state = true;
-        }
-
-
-        if (!done)
-            state = false;
     }
 }

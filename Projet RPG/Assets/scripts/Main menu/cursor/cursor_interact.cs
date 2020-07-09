@@ -5,7 +5,7 @@ using UnityEngine;
 public class cursor_interact : MonoBehaviour
 {
     private cursormenusL cursors;
-    interactable inter;
+    buttons inter;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +18,7 @@ public class cursor_interact : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Transform target = cursors.list[cursors.GetCursorPos];
-            inter = target.GetComponent<interactable>();
+            inter = target.GetComponent<buttons>();
             inter.state = true;
         }
     }

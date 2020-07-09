@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class brightness_bar : MonoBehaviour
 {
-    public interactable inter;
+    public buttons inter;
     public Transform cursor;
     public float opacity;
     // Start is called before the first frame update

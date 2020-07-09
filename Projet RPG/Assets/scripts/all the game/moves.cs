@@ -18,6 +18,8 @@ public class moves : MonoBehaviour
     private bool sprinting = false;
 
     private float time = 0;
+    private float cd = 0;
+    private bool timing = false;
     private bool dodging = false;
     private float hordodge;
     private float verdodge;
@@ -33,8 +35,6 @@ public class moves : MonoBehaviour
 
     private Controller controls;
 
-    public float boxx = 0;
-    public float boxy = -1;
     private float decal = 0.8f;
 
     private void Awake()
@@ -46,6 +46,7 @@ public class moves : MonoBehaviour
         controls.gameplay.sprint.canceled += ctx => sprinting = false;
 
         controls.gameplay.dodge.performed += ctx => dodging = true;
+        controls.gameplay.dodge.started += ctx => timing = true;
         controls.gameplay.dodge.canceled += ctx => dodging = false;
 
         controls.gameplay.move.performed += ctx => axisx = ctx.ReadValue<Vector2>().x ;
@@ -88,9 +89,6 @@ public class moves : MonoBehaviour
 
             dir = "right";
 
-            boxx = decal;
-            boxy = 0;
-
             if (time == 0)
                 hordodge = hormove;
         }
@@ -104,9 +102,6 @@ public class moves : MonoBehaviour
             anim.SetBool("right", false);
 
             dir = "left";
-
-            boxx = -decal;
-            boxy = 0;
 
             if (time == 0)
                 hordodge = hormove;
@@ -122,9 +117,6 @@ public class moves : MonoBehaviour
 
             dir = "up";
 
-            boxy = 0.4f;
-            boxx = 0;
-
             if (time == 0)
                 verdodge = vermove;
         }
@@ -138,9 +130,6 @@ public class moves : MonoBehaviour
             anim.SetBool("up", false);
 
             dir = "down";
-
-            boxy = -decal;
-            boxx = 0;
 
             if (time == 0)
                 verdodge = vermove;
@@ -161,9 +150,6 @@ public class moves : MonoBehaviour
 
             dir = "right";
 
-            boxx = decal;
-            boxy = 0;
-
             if (time == 0)
                 hordodge = hormove;
         }
@@ -179,9 +165,6 @@ public class moves : MonoBehaviour
 
             dir = "left";
 
-            boxx = -decal;
-            boxy = 0;
-
             if (time == 0)
                 hordodge = hormove;
         }
@@ -196,9 +179,6 @@ public class moves : MonoBehaviour
 
             dir = "up";
 
-            boxy = 0.4f;
-            boxx = 0;
-
             if (time == 0)
                 verdodge = vermove;
         }
@@ -212,9 +192,6 @@ public class moves : MonoBehaviour
             anim.SetBool("up", false);
 
             dir = "down";
-
-            boxy = -decal;
-            boxx = 0;
 
             if (time == 0)
                 verdodge = vermove;
@@ -236,13 +213,18 @@ public class moves : MonoBehaviour
         #endregion
 
         #region dodge or movement ?
+        if ((Input.GetKeyDown(dodge) || timing) && time == 0 && Time.realtimeSinceStartup - cd > 0.2f)
+        {
+            cd = Time.realtimeSinceStartup;
+            timing = false;
+        }
         if (Input.GetKey(dodge) && time == 0)
         {
             dodging = true;
             time = Time.realtimeSinceStartup;
         }
 
-        if (dodging && Time.realtimeSinceStartup - time < 0.1f && armed)
+        if (dodging && Time.realtimeSinceStartup - time < 0.1f && armed && Time.realtimeSinceStartup-cd > 0.2f)
         {
             moveplayer(hordodge * 4, verdodge * 4);
         }
@@ -252,7 +234,13 @@ public class moves : MonoBehaviour
             time = 0;
             hordodge = 0;
             verdodge = 0;
+            
             moveplayer(hormove, vermove);
+        }
+
+        if (Time.realtimeSinceStartup - cd > 0.2f)
+        {
+            cd = 0;
         }
         #endregion
 
